@@ -1,0 +1,35 @@
+import random
+print("1=Rock,2=poper,3=scissor")
+print ("Let's play with me")
+you = int(input("please start with me : "))
+me = random.randint(1,3)
+if me==1:
+    print("I will slow you: " +str(me))
+    if you == 1:
+        print ("Draw")
+    elif you == 2:
+        print("you are Winner")
+    elif you == 3:
+        print("i am Winner")
+    else:
+        print ("NO Anwser")
+elif me==2:
+    print("I will slow you " +str(me))
+    if you == 1:
+        print ("i am winner")
+    elif you == 2:
+        print("Draw")
+    elif you == 3:
+        print("you are Winner")
+    else:
+        print ("NO Anser")
+elif me==3 :
+    print("i will show you: " +str(me))
+    if you == 1:
+        print ("you are winner")
+    elif you == 2:
+        print("i am Winner")
+    elif you == 3:
+        print("Draw")
+    else:
+        print ("NO Anser")
